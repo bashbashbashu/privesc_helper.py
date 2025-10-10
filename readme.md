@@ -1,4 +1,4 @@
-# Privesc_helper 🕵
+# privesc_helper 
 
 A tiny, friendly **privilege-escalation enumerator** for labs — written in Python, cross-platform (Linux & Windows), and focused on **collection-only** (no exploits included). 
 
