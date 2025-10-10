@@ -13,7 +13,7 @@ This tool is **for educational use only** — run it on machines you own or on s
 
 ---
 
-## ✨ Features
+## Features
 - Auto-detects **Linux** vs **Windows** and runs platform-appropriate checks.  
 - Produces both:
   - `privesc_report.txt` — human-friendly summary  
@@ -144,7 +144,7 @@ python3 privesc_helper.py --outdir ./my_report
 - Use `--deep` only on lab systems—it can be noisy and slow.  
 
 
-## ❤️ How this helps you
+## How this helps you
 - Faster triage than running a dozen manual commands.  
 - Avoids noise from huge tools when you just need the essentials.  
 - Easy to script: JSON output can be parsed to feed into your workflow or C2.  
