@@ -1,12 +1,12 @@
-# privesc_helper 🕵️‍♀️🔍
+# Privesc_helper 🕵
 
-A tiny, friendly **privilege-escalation enumerator** for labs — written in Python, cross-platform (Linux & Windows), and focused on **collection-only** (no exploits included). Think of it as your lightweight recon buddy that quietly gathers the most useful hints so you can find the good leads faster.
+A tiny, friendly **privilege-escalation enumerator** for labs — written in Python, cross-platform (Linux & Windows), and focused on **collection-only** (no exploits included). 
 
-> _“Polite snooping for your lab boxes — reports, not broken things.”_ 🐣
+> _“When the going gets tough and you've landed on user, use me and get root”_ some wise ol woman (maybe me)
 
 ---
 
-## 🚦 Quick disclaimer (please read)
+##  Quick disclaimer (please read)
 This tool is **for educational use only** — run it on machines you own or on systems where you have explicit written permission (CTFs, lab VMs, etc.).
 
 **It does not exploit** vulnerabilities or attempt privilege escalation by itself; it just collects info and suggests potential leads.
@@ -23,7 +23,7 @@ This tool is **for educational use only** — run it on machines you own or on s
 
 ---
 
-## 🧰 What it collects (high level)
+##  What it collects (high level)
 
 **Linux**
 - `id`, `whoami`, kernel & `/etc/os-release`  
@@ -43,7 +43,7 @@ This tool is **for educational use only** — run it on machines you own or on s
 
 ---
 
-## 🚀 Quick start
+##  Quick start
 
 1. Clone your repo (or copy `privesc_helper.py`) to the target machine.
 
@@ -70,7 +70,7 @@ python privesc_helper.py
 
 ---
 
-## 📎 Example snippet (from `privesc_report.txt`)
+##  Example snippet (from `privesc_report.txt`)
 
 ```
 Privilege Escalation Helper (Enumeration Only)
@@ -93,7 +93,7 @@ User may run the following commands:
 
 ---
 
-## 🧩 How this helps you
+##  How this helps you
 - Faster triage than running a dozen manual commands.  
 - Avoids noise from huge tools when you just need the essentials.  
 - Easy to script: JSON output can be parsed to feed into your workflow or C2.  
@@ -101,7 +101,7 @@ User may run the following commands:
 
 ---
 
-## 🛠️ Extending & contributing
+##  Extending & contributing
 Want it dimmer, louder, or spicier?
 - Add checks (e.g., `--deep` scans, HTML reports).  
 - Add command-line flags (`--quick`, `--deep`, `--linux-only`, `--windows-only`).  
@@ -111,8 +111,8 @@ Contributions welcome — open an issue or PR with your idea!
 
 ---
 
-## 📜 License
-MIT — use responsibly, attribute improvements, and keep it legal 🙏
+##  License
+MIT — use responsibly, I am not to blame for any illegal use.
 
 ---
 
@@ -121,6 +121,4 @@ If you want, I can add:
 - A one-line install badge and quick-install snippet
 - A tiny demo gif (recorded in a VM)
 - Extra command-line flags for `--quick`/`--deep`
-
-Which one should we add next? 🐣✨
 
