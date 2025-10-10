@@ -153,5 +153,9 @@ python3 privesc_helper.py --outdir ./my_report
 ---
 
 ##  License
-MIT — use responsibly, I am not to blame for any illegal use.
+Please use responsibly, I am not to blame for any illegal shenanigans 
+
+Ok 
+
+Toodalooz ❤️
 
