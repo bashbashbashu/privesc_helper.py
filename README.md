@@ -48,8 +48,8 @@ This tool is **for educational use only** — run it on machines you own or on s
 1. Clone your repo (or copy `privesc_helper.py`) to the target machine.
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/bashbashbashu>/privesc_helper>.git
+cd <privesc.helper>
 ```
 
 2. Make sure Python 3 is installed on the target.
